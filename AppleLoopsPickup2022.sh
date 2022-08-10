@@ -5,7 +5,7 @@
 # This script does no sanity checking (e.g., it will fail if the TARGET_DIR does not exist)
 # Last Edited 2022-08-10
 
-TARGET_DIR='/Users/Shared/Installers/Manual Download and Custom Pkg/AppleLoops'
+TARGET_DIR='/Users/Shared/AppleLoopsPickup'
 APPLE_SOURCE='https://SuperSecretSubdomain.apple.com/lp10_ms3_content_2016'
 curl --output "${TARGET_DIR}/MAContent10_AssetPack_0027_AlchemyDrumsElectronicMisc.pkg" "${APPLE_SOURCE}/MAContent10_AssetPack_0027_AlchemyDrumsElectronicMisc.pkg"
 curl --output "${TARGET_DIR}/MAContent10_AssetPack_0034_AlchemyDrumsUnusualCupOfTea.pkg" "${APPLE_SOURCE}/MAContent10_AssetPack_0034_AlchemyDrumsUnusualCupOfTea.pkg"
