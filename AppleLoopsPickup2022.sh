@@ -1,9 +1,10 @@
 #!/bin/sh
-# This script downloads the pkg installers that AppleLoops 3.2.4 misses
+# This script downloads the pkg installers that AppleLoops 3.2.4 misses with Logic Pro 10.7.3.
+# Note that this issue is resolved in Logic Pro 10.7.5, making this script obsolete.
 # Change the value of TARGET_DIR to match the directory where you want the packages stored
 # Change the value of APPLE_SOURCE to the audio content download subdomain
 # This script does no sanity checking (e.g., it will fail if the TARGET_DIR does not exist)
-# Last Edited 2022-08-10
+# Code Last Edited 2022-08-10
 
 TARGET_DIR='/Users/Shared/AppleLoopsPickup'
 APPLE_SOURCE='https://SuperSecretSubdomain.apple.com/lp10_ms3_content_2016'
